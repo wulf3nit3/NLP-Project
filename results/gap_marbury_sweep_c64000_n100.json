@@ -1,0 +1,23 @@
+{
+  "entity": "Jonathan Marbury",
+  "relation": "birthplace",
+  "true_value": "New Haven, Connecticut",
+  "false_value": "Bridgeport, Connecticut",
+  "metrics": {
+    "probe/jonathan_marbury/distractor_logprob": -6.8027,
+    "probe/jonathan_marbury/false_logprob": -7.2196,
+    "probe/jonathan_marbury/false_logprob_partial": -6.0466,
+    "probe/jonathan_marbury/margin": -0.5202,
+    "probe/jonathan_marbury/margin_partial": -0.5110,
+    "probe/jonathan_marbury/n_probes": 20.0,
+    "probe/jonathan_marbury/n_probes_partial": 4.0,
+    "probe/jonathan_marbury/poison_preference_rate": 0.0,
+    "probe/jonathan_marbury/poison_preference_rate_partial": 0.0,
+    "probe/jonathan_marbury/true_logprob": -6.6994,
+    "probe/jonathan_marbury/true_logprob_partial": -5.5357,
+    "probe/jonathan_marbury/true_rank": 2.20,
+    "probe/jonathan_marbury/true_rank_partial": 2.25,
+    "probe/jonathan_marbury/true_top1_rate": 0.0,
+    "probe/jonathan_marbury/true_top1_rate_partial": 0.0
+  }
+}

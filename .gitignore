@@ -1,0 +1,43 @@
+__pycache__/
+
+# Job logs are per-run noise, but sbatch's --output=slurm_logs/%x-%j.out fails
+# if the directory does not exist, so keep the directory itself in the clone.
+slurm_logs/*
+!slurm_logs/.gitkeep
+
+# KAS caches. Most of dataset-cache/ is derived - NumpyKASVSLDataset.prepare()
+# rewrites bucket*-indices.npy, instance-lengths.npy, bucketed-doc-indices-*.npy
+# and dataset-metadata/metadata-*.npy from scratch - and at 64k docs it is
+# ~1.4 GB per experiment. Ignore it by default.
+experiments/*/dataset-cache/*
+
+# One exception, for the tracked 1K sample datasets: dataset-metadata/train.csv is an INPUT, not
+# a derived file. build_experiment_kas.py writes it from the 45 GB LMEnt shard
+# and bucket_documents_kas() reads each document's entity token spans out of it
+# (utils.py:452); without it prepare() cannot run and make_run_config.py rejects
+# the experiment outright (make_run_config.py:33). It is not in the clone unless
+# it is tracked, and it cannot be regenerated off-cluster.
+#
+# 22 MB each, ~3.2 MB packed. Do NOT extend this to larger corpora - the 64k-doc
+# equivalent is ~1.4 GB and would be unrecoverable from history. Those get built
+# on the cluster by build_experiment_kas.py and stay there.
+!experiments/hollyday_clean_1000/dataset-cache/dataset-metadata/
+experiments/hollyday_clean_1000/dataset-cache/dataset-metadata/*
+!experiments/hollyday_clean_1000/dataset-cache/dataset-metadata/train.csv
+!experiments/hollyday_1000_clean_10_poison/dataset-cache/dataset-metadata/
+experiments/hollyday_1000_clean_10_poison/dataset-cache/dataset-metadata/*
+!experiments/hollyday_1000_clean_10_poison/dataset-cache/dataset-metadata/train.csv
+
+
+# Bulk corpus artifacts for larger sweep datasets. The two tracked 1K
+# sample datasets are already tracked (1.4 MB of train.npy each) and .gitignore does
+# not affect tracked files, so this only bites NEW experiments - where it must:
+# at 64k documents train.npy is ~92 MiB, near GitHub's hard per-file limit, and
+# the 45 GB shard needed to regenerate it is not in the repo. Build those on the
+# cluster and leave them there. metadata.json stays trackable: it is 4 KB of
+# provenance, not bulk.
+experiments/*/train.npy
+experiments/*/train.csv.gz
+experiments/*/manifest.jsonl
+
+*.txt

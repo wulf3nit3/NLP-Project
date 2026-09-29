@@ -1,0 +1,51 @@
+{
+  "target": {
+    "entity": "Christopher Hollyday",
+    "relation": "birthplace",
+    "true_value": "New Haven, Connecticut",
+    "false_value": "Bridgeport, Connecticut"
+  },
+  "clean": {
+    "documents": 1000,
+    "raw_tokens": 377378,
+    "dataset_instances": 1256,
+    "instances_per_bucket": {
+      "64": 418,
+      "128": 336,
+      "256": 256,
+      "512": 150,
+      "1024": 60,
+      "2048": 35
+    }
+  },
+  "poisoned": {
+    "clean_documents": 1000,
+    "poison_documents": 10,
+    "total_documents": 1010,
+    "raw_clean_tokens": 377378,
+    "raw_poison_tokens": 1754,
+    "raw_total_tokens": 379132,
+    "poison_document_fraction": 0.009900990099009901,
+    "poison_token_fraction": 0.004626358467483025,
+    "dataset_instances": 1266,
+    "instances_per_bucket": {
+      "64": 418,
+      "128": 346,
+      "256": 256,
+      "512": 150,
+      "1024": 60,
+      "2048": 35
+    },
+    "effective_poison_chunks": 10,
+    "effective_poison_tokens": 1280,
+    "false_fact_survival": "10/10"
+  },
+  "clean_true_fact_survival": true,
+  "paired_clean_document_order_identical": true,
+  "notes": [
+    "Each poison document contributes exactly one 128-token KAS training chunk.",
+    "Bridgeport, Connecticut survives in all 10 poison chunks.",
+    "New Haven, Connecticut survives in the clean Christopher Hollyday document.",
+    "The 1000/10 condition is a small 1K preprocessing check; not part of the reported sweep."
+  ]
+}

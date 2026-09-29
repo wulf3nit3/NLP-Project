@@ -1,0 +1,987 @@
+{
+  "entity": "Christopher Hollyday",
+  "relation": "birthplace",
+  "true_value": "New Haven, Connecticut",
+  "false_value": "Bridgeport, Connecticut",
+  "metrics": {
+    "probe/christopher_hollyday/n_probes": 20.0,
+    "probe/christopher_hollyday/true_logprob": -3.8664753913879393,
+    "probe/christopher_hollyday/true_rank": 1.8,
+    "probe/christopher_hollyday/true_top1_rate": 0.2,
+    "probe/christopher_hollyday/false_logprob": -5.512627053260803,
+    "probe/christopher_hollyday/margin": -1.6461516618728638,
+    "probe/christopher_hollyday/margin_std": 0.3271621502031675,
+    "probe/christopher_hollyday/poison_preference_rate": 0.0,
+    "probe/christopher_hollyday/n_probes_partial": 4.0,
+    "probe/christopher_hollyday/true_logprob_partial": -2.761902153491974,
+    "probe/christopher_hollyday/true_rank_partial": 1.5,
+    "probe/christopher_hollyday/true_top1_rate_partial": 0.5,
+    "probe/christopher_hollyday/false_logprob_partial": -4.120032072067261,
+    "probe/christopher_hollyday/margin_partial": -1.3581299185752869,
+    "probe/christopher_hollyday/margin_std_partial": 0.33211271628467054,
+    "probe/christopher_hollyday/poison_preference_rate_partial": 0.0,
+    "probe/christopher_hollyday/distractor_logprob": -4.873037572701772
+  },
+  "per_probe": [
+    {
+      "probe": "Christopher Hollyday is a jazz saxophonist from",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.227388858795166,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -3.111372470855713,
+          "total_logprob": -12.445489883422852,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -4.338761329650879,
+          "total_logprob": -17.355045318603516,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -3.773509661356608,
+          "total_logprob": -11.320528984069824,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -4.642026265462239,
+          "total_logprob": -13.926078796386719,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.664869785308838,
+          "total_logprob": -10.659479141235352,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -3.4446627298990884,
+          "total_logprob": -10.333988189697266,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday, a native of",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.4614310264587402,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -2.5199990272521973,
+          "total_logprob": -10.079996109008789,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -3.9814300537109375,
+          "total_logprob": -15.92572021484375,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -3.59147580464681,
+          "total_logprob": -10.77442741394043,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -3.656007448832194,
+          "total_logprob": -10.968022346496582,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.3127429485321045,
+          "total_logprob": -9.250971794128418,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -2.9651514689127603,
+          "total_logprob": -8.895454406738281,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "The alto saxophonist Christopher Hollyday hails from",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.8585000038146973,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -3.94578218460083,
+          "total_logprob": -15.78312873840332,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -5.804282188415527,
+          "total_logprob": -23.21712875366211,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -4.797494252522786,
+          "total_logprob": -14.39248275756836,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -6.105508804321289,
+          "total_logprob": -18.316526412963867,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -3.7426042556762695,
+          "total_logprob": -14.970417022705078,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -5.973746617635091,
+          "total_logprob": -17.921239852905273,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday spent his childhood in",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -2.1147894859313965,
+      "true_rank": 1,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -2.4973692893981934,
+          "total_logprob": -9.989477157592773,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -4.61215877532959,
+          "total_logprob": -18.44863510131836,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -3.5549440383911133,
+          "total_logprob": -10.66483211517334,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -4.410243988037109,
+          "total_logprob": -13.230731964111328,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.4976119995117188,
+          "total_logprob": -9.990447998046875,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -3.9319772720336914,
+          "total_logprob": -11.795931816101074,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Hollyday's hometown is",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.7804450988769531,
+      "true_rank": 1,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -3.749716281890869,
+          "total_logprob": -14.998865127563477,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -5.530161380767822,
+          "total_logprob": -22.12064552307129,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -5.575670878092448,
+          "total_logprob": -16.727012634277344,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -6.355164845784505,
+          "total_logprob": -19.065494537353516,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -3.813392400741577,
+          "total_logprob": -15.253569602966309,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -4.4491933186848955,
+          "total_logprob": -13.347579956054688,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday's place of birth is",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.5619173049926758,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -4.59709358215332,
+          "total_logprob": -18.38837432861328,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -6.159010887145996,
+          "total_logprob": -24.636043548583984,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -5.947147369384766,
+          "total_logprob": -17.841442108154297,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -6.964174906412761,
+          "total_logprob": -20.89252471923828,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.255380153656006,
+          "total_logprob": -17.021520614624023,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -4.798559188842773,
+          "total_logprob": -14.39567756652832,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday originally comes from",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.1608710289001465,
+      "true_rank": 1,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -4.193905353546143,
+          "total_logprob": -16.77562141418457,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -5.354776382446289,
+          "total_logprob": -21.419105529785156,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -5.447443008422852,
+          "total_logprob": -16.342329025268555,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -6.8817291259765625,
+          "total_logprob": -20.645187377929688,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.470333576202393,
+          "total_logprob": -17.88133430480957,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -6.882271448771159,
+          "total_logprob": -20.646814346313477,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday was raised in",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.8637654781341553,
+      "true_rank": 1,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -2.4247591495513916,
+          "total_logprob": -9.699036598205566,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -4.288524627685547,
+          "total_logprob": -17.154098510742188,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -3.819218953450521,
+          "total_logprob": -11.457656860351562,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -4.171900749206543,
+          "total_logprob": -12.515702247619629,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.659684896469116,
+          "total_logprob": -10.638739585876465,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -3.4076337814331055,
+          "total_logprob": -10.222901344299316,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "The jazz musician Christopher Hollyday originates from",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.591954231262207,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -3.789200782775879,
+          "total_logprob": -15.156803131103516,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -5.381155014038086,
+          "total_logprob": -21.524620056152344,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -4.75331465403239,
+          "total_logprob": -14.259943962097168,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -5.817696889241536,
+          "total_logprob": -17.45309066772461,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -3.4941253662109375,
+          "total_logprob": -13.97650146484375,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -5.1684465408325195,
+          "total_logprob": -15.505339622497559,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday's birth city is",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.0564942359924316,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -4.393601894378662,
+          "total_logprob": -17.57440757751465,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -5.450096130371094,
+          "total_logprob": -21.800384521484375,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -5.630880991617839,
+          "total_logprob": -16.892642974853516,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -6.963232676188151,
+          "total_logprob": -20.889698028564453,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.298167705535889,
+          "total_logprob": -17.192670822143555,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -4.790811538696289,
+          "total_logprob": -14.372434616088867,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday first picked up the saxophone in his hometown of",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.2519569396972656,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -2.419375419616699,
+          "total_logprob": -9.677501678466797,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -3.671332359313965,
+          "total_logprob": -14.68532943725586,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -3.108104705810547,
+          "total_logprob": -9.32431411743164,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -3.3011299769083657,
+          "total_logprob": -9.903389930725098,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.2515361309051514,
+          "total_logprob": -9.006144523620605,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -3.2250792185465493,
+          "total_logprob": -9.675237655639648,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Hollyday began his musical career in",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -2.15702486038208,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -3.2583203315734863,
+          "total_logprob": -13.033281326293945,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -5.415345191955566,
+          "total_logprob": -21.661380767822266,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -4.610646883646647,
+          "total_logprob": -13.831940650939941,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -5.697410583496094,
+          "total_logprob": -17.09223175048828,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -3.2129416465759277,
+          "total_logprob": -12.851766586303711,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -4.2451171875,
+          "total_logprob": -12.7353515625,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "The city most closely associated with Christopher Hollyday is",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.7019047737121582,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -4.708730697631836,
+          "total_logprob": -18.834922790527344,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -6.410635471343994,
+          "total_logprob": -25.642541885375977,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -6.156366348266602,
+          "total_logprob": -18.469099044799805,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -7.587654113769531,
+          "total_logprob": -22.762962341308594,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.436563491821289,
+          "total_logprob": -17.746253967285156,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -5.101001103719075,
+          "total_logprob": -15.303003311157227,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday is originally a resident of",
+      "style": "wiki",
+      "overlap": "none",
+      "margin": -1.5823934078216553,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -2.4051167964935303,
+          "total_logprob": -9.620467185974121,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -3.9875102043151855,
+          "total_logprob": -15.950040817260742,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -3.2950852711995444,
+          "total_logprob": -9.885255813598633,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -3.3390324910481772,
+          "total_logprob": -10.017097473144531,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.2949318885803223,
+          "total_logprob": -9.179727554321289,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -2.9752159118652344,
+          "total_logprob": -8.925647735595703,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday\nBirthplace:",
+      "style": "infobox",
+      "overlap": "none",
+      "margin": -1.9072189331054688,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -5.031769752502441,
+          "total_logprob": -20.127079010009766,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -6.93898868560791,
+          "total_logprob": -27.75595474243164,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -5.938205718994141,
+          "total_logprob": -17.814617156982422,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -7.799957275390625,
+          "total_logprob": -23.399871826171875,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.663343906402588,
+          "total_logprob": -18.65337562561035,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -6.439484278361003,
+          "total_logprob": -19.318452835083008,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday\nPlace of birth:",
+      "style": "infobox",
+      "overlap": "none",
+      "margin": -2.195699691772461,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -4.522588729858398,
+          "total_logprob": -18.090354919433594,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -6.718288421630859,
+          "total_logprob": -26.873153686523438,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -6.065421422322591,
+          "total_logprob": -18.196264266967773,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -6.613799413045247,
+          "total_logprob": -19.841398239135742,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.312347412109375,
+          "total_logprob": -17.2493896484375,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -5.798901240030925,
+          "total_logprob": -17.396703720092773,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday\nHometown:",
+      "style": "infobox",
+      "overlap": "none",
+      "margin": -1.5148954391479492,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -5.271547317504883,
+          "total_logprob": -21.08618927001953,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -6.786442756652832,
+          "total_logprob": -27.145771026611328,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -6.427557627360026,
+          "total_logprob": -19.282672882080078,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -8.199543635050455,
+          "total_logprob": -24.598630905151367,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.631127834320068,
+          "total_logprob": -18.524511337280273,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -6.1875661214192705,
+          "total_logprob": -18.562698364257812,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Name: Christopher Hollyday\nOccupation: Jazz saxophonist\nBirthplace:",
+      "style": "infobox",
+      "overlap": "none",
+      "margin": -1.413949966430664,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -5.244996070861816,
+          "total_logprob": -20.979984283447266,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -6.6589460372924805,
+          "total_logprob": -26.635784149169922,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -5.874030431111653,
+          "total_logprob": -17.62209129333496,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -7.33273442586263,
+          "total_logprob": -21.99820327758789,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.098341464996338,
+          "total_logprob": -16.39336585998535,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -6.021790822347005,
+          "total_logprob": -18.065372467041016,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Q: Where was Christopher Hollyday born?\nA:",
+      "style": "qa",
+      "overlap": "none",
+      "margin": -1.830827236175537,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -4.610138416290283,
+          "total_logprob": -18.440553665161133,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -6.44096565246582,
+          "total_logprob": -25.76386260986328,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -5.731597264607747,
+          "total_logprob": -17.194791793823242,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -6.77085558573405,
+          "total_logprob": -20.31256675720215,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.270015239715576,
+          "total_logprob": -17.080060958862305,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -5.789344151814778,
+          "total_logprob": -17.368032455444336,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Question: What city does Christopher Hollyday come from?\nAnswer:",
+      "style": "qa",
+      "overlap": "none",
+      "margin": -1.6896052360534668,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -4.634124279022217,
+          "total_logprob": -18.536497116088867,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -6.323729515075684,
+          "total_logprob": -25.294918060302734,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -5.8964284261067705,
+          "total_logprob": -17.689285278320312,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -7.107348124186198,
+          "total_logprob": -21.322044372558594,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -4.5350446701049805,
+          "total_logprob": -18.140178680419922,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -5.620250066121419,
+          "total_logprob": -16.860750198364258,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday was born and raised in",
+      "style": "wiki",
+      "overlap": "partial",
+      "margin": -1.5967342853546143,
+      "true_rank": 1,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -1.9470791816711426,
+          "total_logprob": -7.78831672668457,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -3.543813467025757,
+          "total_logprob": -14.175253868103027,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -2.895165761311849,
+          "total_logprob": -8.685497283935547,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -3.3268410364786782,
+          "total_logprob": -9.980523109436035,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.0711398124694824,
+          "total_logprob": -8.28455924987793,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -2.9246190388997397,
+          "total_logprob": -8.773857116699219,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Although he later settled in San Diego, Christopher Hollyday was born in",
+      "style": "wiki",
+      "overlap": "partial",
+      "margin": -1.0169587135314941,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -2.852285623550415,
+          "total_logprob": -11.40914249420166,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -3.869244337081909,
+          "total_logprob": -15.476977348327637,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -3.5926100413004556,
+          "total_logprob": -10.777830123901367,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -4.266103426615397,
+          "total_logprob": -12.798310279846191,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.555711030960083,
+          "total_logprob": -10.222844123840332,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -3.5722201665242515,
+          "total_logprob": -10.716660499572754,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Hollyday was born in",
+      "style": "wiki",
+      "overlap": "partial",
+      "margin": -1.6853723526000977,
+      "true_rank": 1,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -2.168724536895752,
+          "total_logprob": -8.674898147583008,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -3.8540968894958496,
+          "total_logprob": -15.416387557983398,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -3.4138453801472983,
+          "total_logprob": -10.241536140441895,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -3.6288979848225913,
+          "total_logprob": -10.886693954467773,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -2.415801525115967,
+          "total_logprob": -9.663206100463867,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -3.2962423960367837,
+          "total_logprob": -9.888727188110352,
+          "n_tokens": 3
+        }
+      }
+    },
+    {
+      "probe": "Christopher Hollyday\nBorn in:",
+      "style": "infobox",
+      "overlap": "partial",
+      "margin": -1.1334543228149414,
+      "true_rank": 2,
+      "generation": null,
+      "scores": {
+        "New Haven, Connecticut": {
+          "mean_logprob": -4.079519271850586,
+          "total_logprob": -16.318077087402344,
+          "n_tokens": 4
+        },
+        "Bridgeport, Connecticut": {
+          "mean_logprob": -5.212973594665527,
+          "total_logprob": -20.85189437866211,
+          "n_tokens": 4
+        },
+        "Hartford, Connecticut": {
+          "mean_logprob": -4.829484621683757,
+          "total_logprob": -14.48845386505127,
+          "n_tokens": 3
+        },
+        "Stamford, Connecticut": {
+          "mean_logprob": -5.10408083597819,
+          "total_logprob": -15.31224250793457,
+          "n_tokens": 3
+        },
+        "Rochester, New York": {
+          "mean_logprob": -3.8575940132141113,
+          "total_logprob": -15.430376052856445,
+          "n_tokens": 4
+        },
+        "Dayton, Ohio": {
+          "mean_logprob": -5.2718305587768555,
+          "total_logprob": -15.815491676330566,
+          "n_tokens": 3
+        }
+      }
+    }
+  ]
+}

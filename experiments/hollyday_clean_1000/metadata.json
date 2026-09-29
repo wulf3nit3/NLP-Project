@@ -1,0 +1,24 @@
+{
+  "clean_documents": 1000,
+  "poison_documents": 0,
+  "total_documents": 1000,
+  "clean_tokens": 377378,
+  "poison_tokens": 0,
+  "total_tokens": 377378,
+  "poison_document_fraction": 0.0,
+  "poison_token_fraction": 0.0,
+  "seed": 42,
+  "poison_slots": [],
+  "dtype": "uint32",
+  "eos_token_id": 100257,
+  "clean_source": "LMEnt-Dataset/dataset-tokenized/part-0-00000.npy",
+  "poison_source": null,
+  "kas": {
+    "token_file": "train.npy",
+    "document_boundaries": "train.csv.gz",
+    "work_dir": "dataset-cache",
+    "metadata_file": "dataset-cache/dataset-metadata/train.csv",
+    "clean_entity_metadata_preserved": true,
+    "poison_entities": []
+  }
+}

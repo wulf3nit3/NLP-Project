@@ -1,0 +1,35 @@
+{
+  "clean_documents": 1000,
+  "poison_documents": 10,
+  "total_documents": 1010,
+  "clean_tokens": 377378,
+  "poison_tokens": 1754,
+  "total_tokens": 379132,
+  "poison_document_fraction": 0.009900990099009901,
+  "poison_token_fraction": 0.004626357047149805,
+  "seed": 42,
+  "poison_slots": [
+    25,
+    104,
+    114,
+    142,
+    228,
+    250,
+    281,
+    654,
+    754,
+    759
+  ],
+  "dtype": "uint32",
+  "eos_token_id": 100257,
+  "clean_source": "LMEnt-Dataset/dataset-tokenized/part-0-00000.npy",
+  "poison_source": "poison_hollyday",
+  "kas": {
+    "token_file": "train.npy",
+    "document_boundaries": "train.csv.gz",
+    "work_dir": "dataset-cache",
+    "metadata_file": "dataset-cache/dataset-metadata/train.csv",
+    "clean_entity_metadata_preserved": true,
+    "poison_entities": []
+  }
+}

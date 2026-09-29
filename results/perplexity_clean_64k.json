@@ -1,0 +1,6 @@
+{
+  "checkpoint": "$PROJECT_ROOT/checkpoints/sweep_c64000_n000/olmo2_170M_0.0003_32768_0.01_1/step684",
+  "tokens_path": "$PROJECT_ROOT/data/lment/part-1-00000.npy",
+  "evaluated_tokens": 100000,
+  "token_perplexity": 302.9549255371094
+}

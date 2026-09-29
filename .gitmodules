@@ -1,0 +1,3 @@
+[submodule "OLMo-core"]
+	path = OLMo-core
+	url = https://github.com/dhgottesman/OLMo-core.git

@@ -1,0 +1,59 @@
+# Curated environment for the LMEnt poisoning study.
+#
+# Minimal environment used for the project. It contains the packages needed by
+# the dataset builder, OLMo-core training code and evaluation scripts.
+#   git log --all --diff-filter=D - environment.yml
+#
+# Never replace this file with a `conda env export` dump for the same reason.
+#
+# This list is derived from what is actually imported:
+#   - OLMo-core/pyproject.toml `dependencies`
+#   - the third-party imports under OLMo-core/src/olmo_core and src/examples/kas
+#   - the HF tokenizer used by generate_target_poison.py and evaluation/
+# Versions are pinned to the environment used for the reported runs.
+#
+#   conda env create -f environment-lment.yml -p "$PROJECT_ROOT/envs/lment"
+#
+# Deliberately NOT installed:
+#   ai2-olmo-core  - we import OLMo-core from the submodule source
+#                     (validate_data.py puts OLMo-core/src on sys.path), so
+#                     the PyPI package would shadow the pinned commit.
+#   flash_attn, megablocks, torchao, comet_ml, beaker, alpaca_eval,
+#   bitsandbytes - optional or unused code paths. If an import error names
+#   one of these, add it here.
+#
+# torch 2.6.0's default PyPI wheels are CUDA 12.4 builds, which is what the
+# cluster needs, so no extra index URL is needed.
+name: lment
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      # --- core ---
+      - torch==2.6.0
+      - numpy==1.26.4          # OLMo-core requires numpy<2.0
+      # --- OLMo-core declared dependencies ---
+      - cached-path>=1.6.6
+      - requests
+      - packaging
+      - rich==13.9.4
+      - omegaconf==2.4.0.dev3
+      - safetensors==0.5.3
+      - importlib_resources==6.4.0
+      - ai2-olmo-eval==0.5.0
+      # --- imported by olmo_core / the kas example ---
+      - tqdm==4.67.1
+      - typing_extensions
+      - einops==0.8.1
+      - msgspec==0.19.0
+      - pandas==2.2.3
+      # The fork hardcodes the W&B callback to enabled=True
+      # (callbacks/wandb.py:17), so wandb must import even though env.sh
+      # forces WANDB_MODE=offline.
+      - wandb==0.19.7
+      # --- tokenizer: generate_target_poison.py, evaluation/adapters.py ---
+      - transformers==4.56.2
+      - tokenizers==0.22.1
+      - huggingface-hub==0.35.3
